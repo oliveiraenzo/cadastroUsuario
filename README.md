@@ -1,45 +1,45 @@
-# Cadastro de Usuário
+# User Registration
 
-Este é um aplicativo simples de cadastro de usuário desenvolvido em React Native com Expo.
+This is a simple user registration application built with React Native and Expo.
 
-## Funcionalidades
+## Features
 
--   Cadastro de usuários com os seguintes campos:
-    -   Código
-    -   Nome
-    -   Email
-    -   Senha
--   Validação de campos para garantir que os dados inseridos sejam válidos.
--   Persistência de dados localmente no dispositivo usando `AsyncStorage`.
--   Botões para Salvar, Carregar e Limpar os dados do formulário.
+- User registration with the following fields:
+    - Code
+    - Name
+    - Email
+    - Password
+- Field validation to ensure that the entered data is valid.
+- Local data persistence on the device using `AsyncStorage`.
+- Buttons to Save, Load, and Clear the form data.
 
-## Como Executar o Projeto
+## How to Run the Project
 
-1.  **Clone o repositório:**
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com/oliveiraenzo/cadastroUsuario.git
     ```
 
-2.  **Navegue até o diretório do projeto:**
+2.  **Navigate to the project directory:**
     ```bash
     cd cadastro
     ```
 
-3.  **Instale as dependências:**
+3.  **Install the dependencies:**
     ```bash
     npm install
     ```
 
-4.  **Inicie o servidor de desenvolvimento do Expo:**
+4.  **Start the Expo development server:**
     ```bash
     expo start
     ```
 
-5.  **Execute no seu dispositivo ou emulador:**
-    -   Leia o QR code com o aplicativo Expo Go (disponível para Android e iOS).
-    -   Ou use as opções no terminal para abrir em um emulador de Android ou simulador de iOS.
+5.  **Run on your device or emulator:**
+    -   Scan the QR code with the Expo Go app (available for Android and iOS).
+    -   Or use the options in the terminal to open it in an Android emulator or iOS simulator.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 -   [React Native](https://reactnative.dev/)
 -   [Expo](https://expo.dev/)
